@@ -34,6 +34,9 @@ TODO: Use the const keyword to declare a variable called c and assign it the sum
 */
 
 // * Add your code BELOW here
+const a = 0.1;
+const b = 0.2;
+const c = 0.30000000000000004;
 
 // * Don't mess with the test code below here!
 
@@ -76,6 +79,7 @@ TODO: Using the Math object, assign a random number to a variable called rnd.
 */
 
 // * Add your code BELOW here
+const rnd = Math.random();
 
 // * Don't mess with the test code below here!
 
@@ -107,6 +111,7 @@ TODO: Make sure to round down the value to the nearest integer.
 vi.spyOn(global.Math, 'random').mockReturnValue(0.9);
 
 // * Add your code BELOW here
+const randomInt = Math.random() * 5 | 0;
 
 // * Don't mess with the test code below here!
 
@@ -135,6 +140,8 @@ TODO: assign the result to a variable called numRounded
 */
 
 // * Add your code BELOW here
+const num = 17.89;
+const numRounded = Math.trunc(num);
 
 // * Don't mess with the test code below here!
 
@@ -167,6 +174,12 @@ TODO: In line 6: Using the Math object, round rounding3 to the nearest integer
 */
 
 // * Add your code BELOW here
+let rounding1 = 5.95;
+rounding1 = Math.round(rounding1);
+let rounding2 = 5.5;
+rounding2 = Math.floor(rounding2 + 0.5);
+let rounding3 = 5.05;
+rounding3 = rounding3 + 0.5 | 0;
 
 // * Don't mess with the test code below here!
 
@@ -197,6 +210,8 @@ TODO: it the value of parseInt() applied to orderBagels
 */
 
 // * Add your code BELOW here
+const orderBagels = "13 is a Baker's Dozen";
+const bakersDozen = parseInt(orderBagels);
 
 // * Don't mess with the test code below here!
 
@@ -236,6 +251,8 @@ TODO: the value of myPi converted to a string with four decimal places
 */
 
 // * Add your code BELOW here
+const myPi = Math.PI;
+const myPiFixed = myPi.toFixed(4);
 
 // * Don't mess with the test code below here!
 
@@ -271,6 +288,7 @@ TODO: using the unary + operator
 */
 
 // * Add your code BELOW here
+const sliceOfPi = - -myPiFixed;
 
 // * Don't mess with the test code below here!
 
